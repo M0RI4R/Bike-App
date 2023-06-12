@@ -1,0 +1,20 @@
+.nav-global {
+  display: flex;
+  align-items: center;
+  color: #494950;
+}
+
+.nav-global__item {
+  padding: 0 10px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+}
+.nav-global__link {
+  padding-right: 5px;
+  font-size: 14px;
+}
+
+.nav-global__item *:hover {
+  color: #fc5200;
+}

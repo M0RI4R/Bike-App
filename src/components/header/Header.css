@@ -1,0 +1,41 @@
+* {
+  text-decoration: none;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 55px;
+}
+.Header-FaSistrix {
+  font-size: 24px;
+}
+.Header-search__conteiner {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.Header-link {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.Header-logo {
+  color: orange;
+  font-size: 28px;
+  text-decoration: none;
+}
+.Header-nav {
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.Header-nav {
+  display: flex;
+  align-items: center;
+}

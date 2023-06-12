@@ -1,9 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,700;1,900&display=swap");
+
 * {
   list-style: none;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* color: #242428; */
+  color: #494950;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 .App-header {
-  color: #242428;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.025);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.025);
+  border-bottom: 1px solid #f0f0f5;
 }
