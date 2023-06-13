@@ -1,0 +1,36 @@
+.user-profile-details {
+  position: relative;
+  padding: 60px 20px 20px 20px;
+}
+
+.user-profile-details-img {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.user-profile-header {
+  display: flex;
+  justify-content: center;
+}
+.user-profile-list {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.user-profile-item {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.link-conteiner {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.link-link {
+  color: orange;
+}

@@ -1,0 +1,23 @@
+.sidebar-conteiner {
+  display: flex;
+}
+.sidebar-img {
+  max-width: 50px;
+  margin-right: 12px;
+}
+.sidebar-header {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.sidebar-paragraph {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 6px;
+}
+.sidebar-link {
+  color: #fc5200;
+  font-size: 12px;
+  font-weight: 500;
+}

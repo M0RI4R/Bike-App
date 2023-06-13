@@ -5,7 +5,7 @@ import { FaPlusCircle } from "react-icons/fa";
 import "./NavUser.css";
 import Button from "../buttons/Button";
 
-function NavUser() {
+function NavUser(props) {
   return (
     <ul className="nav-user">
       <li className="nav-user__item">
@@ -20,7 +20,7 @@ function NavUser() {
         <a href="/" className="nav-user__link">
           <img
             className="nav-user__img"
-            src="./images/user.jpg"
+            src={props.img}
             alt="User"
             width={32}
             height={32}

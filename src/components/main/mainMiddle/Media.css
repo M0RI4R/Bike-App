@@ -1,0 +1,21 @@
+.media-conteiner {
+  display: flex;
+  align-items: center;
+  padding: 0 20px 20px 20px;
+}
+.media-img {
+  padding-right: 20px;
+}
+.media-text-content {
+  padding: 0 20px 20px 20px;
+}
+.media-header {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.media-paragraph {
+  color: #494950;
+  font-size: 15px;
+  padding-bottom: 20px;
+}

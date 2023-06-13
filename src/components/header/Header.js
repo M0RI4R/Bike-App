@@ -3,7 +3,7 @@ import NavGlobal from "./NavGlobal";
 import NavUser from "./NavUser";
 import { FaSistrix } from "react-icons/fa";
 
-function Header() {
+function Header(props) {
   return (
     <div className="Header">
       <a href="/" className="Header-link">
@@ -14,7 +14,7 @@ function Header() {
       </button>
       <nav className="Header-nav">
         <NavGlobal />
-        <NavUser />
+        <NavUser img={props.img} />
       </nav>
     </div>
   );

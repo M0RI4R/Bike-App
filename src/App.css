@@ -8,7 +8,10 @@
   /* color: #242428; */
   color: #494950;
 }
-
+.App {
+  background-color: #f7f7fa;
+  height: 100vh;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -17,4 +20,5 @@ body {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.025);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.025);
   border-bottom: 1px solid #f0f0f5;
+  background-color: #fff;
 }
