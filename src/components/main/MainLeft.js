@@ -4,7 +4,7 @@ import UserProfileGoals from "./mainLeft/UserProfileGoals";
 
 function MainLeft(props) {
   return (
-    <div>
+    <div className="main-left-conteiner">
       <UserProfileDetails img={props.img} />
       <UserProfileGoals />
     </div>

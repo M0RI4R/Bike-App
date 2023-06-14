@@ -1,0 +1,43 @@
+.user-goals-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.user-goals-list > * {
+  flex: 1 1 100%;
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.user-goals-paragraph {
+  font-size: 14px;
+  padding: 20px;
+}
+.user-goals-link {
+  color: orange;
+}
+.user-goals-current-week {
+  text-align: center;
+}
+.user-goals-current-day {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.user-current-day-list {
+  display: flex;
+}
+.current-achivments {
+  display: flex;
+  justify-content: center;
+}
+.this-year-achivments {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+}
+.manage-goals {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
